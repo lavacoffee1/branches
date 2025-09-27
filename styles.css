@@ -1,0 +1,114 @@
+:root {
+  --transition: 420ms cubic-bezier(.2,.9,.2,1);
+  font-family: 'Alexandria', sans-serif;
+  background: #43423e;
+  color: #2b1a12;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* شعار */
+.logo img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+/* حاوية الأزرار */
+.branches {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  max-width: 800px;
+}
+
+/* الأزرار */
+.branch-btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+
+  background: #fff;
+        border-radius: 20px;
+  color: var(--brown-dark);
+  text-decoration: none;
+  min-width: 220px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transform: translateY(20px);
+  opacity: 0;
+  transition: all var(--transition);
+}
+
+.is-loaded .branch-btn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.branch-btn .txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.branch-btn .branch-name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.branch-btn .branch-name.en {
+  font-weight: 400;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.branch-btn .icon {
+  font-size: 22px;
+}
+
+/* تأثير hover */
+.branch-btn:hover {
+  background: var(--brown-medium);
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+/* الانستغرام */
+.social img {
+  width: 40px;
+  height: 40px;
+}
+
+/* الفوتر */
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+/* متجاوب */
+@media (max-width: 600px) {
+  .branches {
+    flex-direction: column;
+    align-items: center;
+  }
+  .branch-btn {
+    width: 100%;
+    max-width: 320px;
+  }
+}
