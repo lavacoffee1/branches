@@ -1,7 +1,7 @@
 :root {
   --transition: 420ms cubic-bezier(.2,.9,.2,1);
   font-family: 'Alexandria', sans-serif;
-  background: #43423e;
+  background: #fff;
   color: #2b1a12;
 }
 
@@ -25,8 +25,6 @@ body {
 .logo img {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
 
 /* حاوية الأزرار */
@@ -98,7 +96,6 @@ body {
 footer {
   margin-top: 20px;
   font-size: 14px;
-  opacity: 0.85;
 }
 
 /* متجاوب */
