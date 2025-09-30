@@ -28,7 +28,7 @@ border:1px solid rgba(0,0,0,.06);
 .social-link:hover{transform:translateY(-3px); box-shadow:0 6px 18px rgba(0,0,0,.08);}
 
 
-.social-link svg{width:60%; height:60%; display:block}
+.social-link svg{width:100%; height:100%; display:block}
 
 
 .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0}
@@ -91,7 +91,7 @@ body {
   text-decoration: none;
   min-width: 220px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transform: translateY(20px);
+  transform: translateX(20px);
   opacity: 0;
   transition: all var(--transition);
 }
@@ -118,13 +118,13 @@ body {
 }
 
 .branch-btn .icon {
-  font-size: 22px;
+  font-size: 10px;
 }
 
 /* تأثير hover */
 .branch-btn:hover {
   background: var(--brown-medium);
-  color: #fff;
+  color: #c5a86f;
   transform: translateY(-5px);
 }
 
@@ -151,4 +151,3 @@ footer {
     max-width: 320px;
   }
 }
-
