@@ -1,7 +1,7 @@
 
 
 
-body{font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial; padding:36px;}
+body{padding:36px;}
 .social-row{
 display:flex;
 gap:var(--gap);
@@ -151,3 +151,4 @@ footer {
     max-width: 320px;
   }
 }
+
