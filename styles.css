@@ -28,7 +28,7 @@ border:1px solid rgba(0,0,0,.06);
 .social-link:hover{transform:translateY(-3px); box-shadow:0 6px 18px rgba(0,0,0,.08);}
 
 
-.social-link svg{width:100%; height:100%; display:block}
+.social-link svg{width:65%; height:65%; display:block}
 
 
 .sr-only{position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; border:0}
@@ -151,3 +151,4 @@ footer {
     max-width: 320px;
   }
 }
+
