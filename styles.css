@@ -82,7 +82,7 @@ body {
 /* تأثير hover */
 .branch-btn:hover {
   background: var(--brown-medium);
-  color: #fff;
+    color: rgba(141, 141, 141, 0.58);
   transform: translateY(-5px);
 }
 
@@ -109,3 +109,4 @@ footer {
     max-width: 320px;
   }
 }
+
