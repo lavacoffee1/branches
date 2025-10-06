@@ -13,7 +13,7 @@ flex-wrap:wrap;
 .social-link{
 display:inline-grid;
 place-items:center;
-    opacity: 0.3;
+
 width:var(--size);
 height:var(--size);
 border-radius:12px;
@@ -152,5 +152,6 @@ footer {
     max-width: 320px;
   }
 }
+
 
 
